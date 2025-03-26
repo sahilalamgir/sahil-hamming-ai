@@ -1,0 +1,26 @@
+{
+  "scenarios": [
+    {
+      "scenarioName": "New Patient - Insurance Verification",
+      "scenarioDescription": "Sarah Miller is a new patient calling to verify if the clinic accepts her insurance plan before booking her first appointment. She needs to see a specialist for ongoing migraines and wants to understand the referral process.",
+      "name": "Carlos Martin",
+      "dob": "03/25/1997",
+      "phone": "382-675-7903",
+      "email": "carlos79@hotmail.com",
+      "gender": "Non-binary",
+      "insurance": "Medicaid",
+      "criteria": "The agent should collect Sarah's information as a new patient, verify her insurance details, and explain the clinic's referral process for specialists."
+    },
+    {
+      "scenarioName": "Returning Patient - Basic Appointment Request",
+      "scenarioDescription": "John Doe, a returning patient, calls the clinic to set up a follow-up appointment. He provides his phone number, which the system has on file from a previous visit. He expects the agent to correctly recognize him as a returning patient and confirm his existing details. He wants to schedule a general check-up for next week. He also wonders if his insurance is still on file or if he needs to provide updated information.",
+      "name": "Mary Gonzalez",
+      "dob": "07/26/2002",
+      "phone": "899-747-2815",
+      "email": "mary.gonzalez@protonmail.com",
+      "gender": "Male",
+      "insurance": "None",
+      "criteria": "The agent smoothly recognizes John as a returning patient using his phone number, verifies personal details, and helps schedule a check-up appointment."
+    }
+  ]
+}

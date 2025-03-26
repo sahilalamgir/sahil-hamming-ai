@@ -1,0 +1,32 @@
+{
+  "name": "sahil-hamming-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:scenarios": "npx tsx tests/test-scenarios.ts",
+    "test:compare": "npx tsx tests/compare-scenarios.ts",
+    "test": "npx tsx tests/run-all-tests.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "next": "15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.4",
+    "tailwindcss": "^4",
+    "tsx": "^4.19.3",
+    "typescript": "^5"
+  }
+}

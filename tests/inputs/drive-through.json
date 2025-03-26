@@ -1,0 +1,20 @@
+{
+  "agentConfig": {
+    "actions": ["take_order", "process_payment", "handle_complaints"],
+    "initialState": {
+      "name": "ORDER_TAKING",
+      "prompt": "You are a friendly, efficient, and professional virtual assistant helping customers at a drive-through. Your role is to greet the customer, take orders efficiently, handle customizations, confirm and summarize the order, handle common issues, and end the interaction positively.",
+      "modelName": "gpt-4o-mini",
+      "transitions": ["PAYMENT_PROCESSING"],
+      "initialMessage": "Welcome to our restaurant! How can I assist you today?"
+    },
+    "additionalStates": [
+      {
+        "name": "PAYMENT_PROCESSING",
+        "prompt": "You are processing payment for a drive-through order. Inform the customer of their total, ask for their payment method, and guide them through the payment process. Thank them and direct them to the pickup window when done.",
+        "modelName": "gpt-4o-mini",
+        "transitions": []
+      }
+    ]
+  }
+} 

@@ -1,0 +1,37 @@
+{
+  "scenarios": [
+    {
+      "scenarioName": "Recent Graduate - Starting Investment Portfolio",
+      "scenarioDescription": "Taylor Reynolds, 24, recently graduated with a master's degree and started a job in tech earning $85,000 annually. They have $30,000 in student loans but have also managed to save $15,000. Taylor wants to start investing for long-term growth while balancing student loan repayment. They have a moderate risk tolerance and are particularly interested in tech and renewable energy sectors.",
+      "name": "Taylor Reynolds",
+      "dob": "05/18/1999",
+      "phone": "555-398-2214",
+      "email": "treynolds@example.com",
+      "gender": "Non-binary",
+      "insurance": "None",
+      "criteria": "The agent should transition to INVESTMENT_PLANNING, discuss balancing loan repayment with initial investments, explain basic portfolio diversification, suggest appropriate investment vehicles for a young investor with long time horizon, and recommend a consultation with a human advisor for a detailed plan."
+    },
+    {
+      "scenarioName": "Mid-Career Professional - Retirement Planning",
+      "scenarioDescription": "Michael Washington, 42, wants to evaluate if he's on track for retirement at age 65. He currently has $280,000 in his 401(k), contributes 8% of his $110,000 salary with a 5% employer match, and has a small pension from a previous employer. He's married with two teenagers who will start college in 3-5 years, and he's concerned about balancing retirement savings with upcoming education expenses.",
+      "name": "Michael Washington",
+      "dob": "09/03/1981",
+      "phone": "555-741-9023",
+      "email": "mwashington@example.com",
+      "gender": "Male",
+      "insurance": "None",
+      "criteria": "The agent should transition to RETIREMENT_PLANNING, assess current savings trajectory, discuss catch-up strategies if needed, address college expense planning in relation to retirement goals, and highlight the importance of a comprehensive financial plan with a human advisor."
+    },
+    {
+      "scenarioName": "Near Retirement - Portfolio Rebalancing",
+      "scenarioDescription": "Patricia and David Kumar, both 58, want to review their investment portfolio as they approach retirement in about 7 years. They have accumulated approximately $1.2M across various accounts and want to ensure their asset allocation is appropriate for their time horizon. They're concerned about market volatility affecting their retirement timeline and want to understand withdrawal strategies once they retire.",
+      "name": "Patricia Kumar",
+      "dob": "02/14/1965",
+      "phone": "555-623-7890",
+      "email": "pkumar@example.com",
+      "gender": "Female",
+      "insurance": "None",
+      "criteria": "The agent should transition to INVESTMENT_PLANNING, discuss age-appropriate portfolio rebalancing, explain sequence of returns risk, provide general information about withdrawal strategies, and emphasize the importance of meeting with a human advisor for personalized retirement transition planning."
+    }
+  ]
+} 

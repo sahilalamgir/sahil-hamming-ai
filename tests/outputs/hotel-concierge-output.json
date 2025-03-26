@@ -1,0 +1,37 @@
+{
+  "scenarios": [
+    {
+      "scenarioName": "Fine Dining Reservation Request",
+      "scenarioDescription": "The Johnsons are celebrating their 25th wedding anniversary and want to book a table at an upscale restaurant. They prefer French or Italian cuisine, want a romantic atmosphere with a view if possible, and need a reservation for two at 7:30 PM tomorrow. Mrs. Johnson has a gluten allergy that needs to be accommodated.",
+      "name": "Robert Johnson",
+      "dob": "06/15/1968",
+      "phone": "555-234-5678",
+      "email": "rjohnson@example.com",
+      "gender": "Male",
+      "insurance": "None",
+      "criteria": "The agent should transition to RESTAURANT_BOOKING, suggest 2-3 suitable upscale restaurant options, highlight romantic features, note allergy accommodation, and offer to make the reservation with all special requests noted."
+    },
+    {
+      "scenarioName": "Tourist Attractions for Family with Young Children",
+      "scenarioDescription": "The Garcia family is staying at the hotel for 3 days with their children aged 5 and 8. They want recommendations for family-friendly attractions in the area, preferably educational but fun experiences that would keep the children engaged. They have a moderate budget and access to a rental car.",
+      "name": "Elena Garcia",
+      "dob": "03/22/1985",
+      "phone": "555-876-2345",
+      "email": "elena.garcia@example.com",
+      "gender": "Female",
+      "insurance": "None",
+      "criteria": "The agent should transition to ACTIVITY_PLANNING, recommend age-appropriate attractions with educational components, suggest a balanced itinerary across their 3-day stay, and provide information about operating hours and estimated costs for each recommendation."
+    },
+    {
+      "scenarioName": "Transportation to Business Meeting",
+      "scenarioDescription": "Mr. Zhang is in town for an important business meeting and needs reliable transportation to his meeting venue across town for tomorrow morning at 9:30 AM. He's concerned about potential traffic delays and wants to ensure he arrives with time to spare. He prefers professional car service rather than standard taxis.",
+      "name": "Wei Zhang",
+      "dob": "11/10/1979",
+      "phone": "555-435-8765",
+      "email": "w.zhang@example.com",
+      "gender": "Male",
+      "insurance": "None",
+      "criteria": "The agent should arrange professional car service for Mr. Zhang, allow sufficient buffer time for traffic, confirm pickup details including driver contact protocol, and send a confirmation to Mr. Zhang's phone or email."
+    }
+  ]
+} 

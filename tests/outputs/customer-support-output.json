@@ -1,0 +1,37 @@
+{
+  "scenarios": [
+    {
+      "scenarioName": "Order Status Inquiry - Recent Purchase",
+      "scenarioDescription": "Emma Roberts contacts customer support to check on her recent order of a laptop that was placed 3 days ago. She has the order number but hasn't received any shipping confirmation yet. She's concerned because she needs the laptop for an upcoming business trip next week.",
+      "name": "Emma Roberts",
+      "dob": "04/12/1988",
+      "phone": "555-867-5309",
+      "email": "emma.roberts@example.com",
+      "gender": "Female",
+      "insurance": "None",
+      "criteria": "The agent should verify Emma's identity, look up her order details, provide current status information, and give an estimated delivery timeline. The agent should also reassure her about delivery before her trip."
+    },
+    {
+      "scenarioName": "Product Return - Defective Item",
+      "scenarioDescription": "Marcus Chen received a wireless headphone set that doesn't properly connect to his devices. He's frustrated because he specifically bought this premium model for its connectivity features. He wants to return the item and either get a replacement or refund.",
+      "name": "Marcus Chen",
+      "dob": "09/23/1992",
+      "phone": "555-123-4567",
+      "email": "mchen@example.com",
+      "gender": "Male",
+      "insurance": "None",
+      "criteria": "The agent should transition to RETURN_PROCESSING, validate purchase details, explain the return policy, provide clear return instructions, and offer both replacement and refund options while expressing appropriate empathy for the customer's frustration."
+    },
+    {
+      "scenarioName": "Technical Support - Software Configuration",
+      "scenarioDescription": "Sophia Williams is having trouble setting up the smart home system she purchased. The app keeps crashing when she tries to connect multiple devices. She's already tried reinstalling the app and restarting her phone but is still experiencing issues.",
+      "name": "Sophia Williams",
+      "dob": "11/05/1985",
+      "phone": "555-987-6543",
+      "email": "sophia.w@example.com",
+      "gender": "Female",
+      "insurance": "None",
+      "criteria": "The agent should transition to TECHNICAL_SUPPORT, collect detailed information about her device, app version, and specific error messages. The agent should provide systematic troubleshooting steps and if unable to resolve remotely, appropriately escalate to a specialist."
+    }
+  ]
+} 

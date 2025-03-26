@@ -1,0 +1,37 @@
+{
+  "scenarios": [
+    {
+      "scenarioName": "Beginner Weight Loss Journey",
+      "scenarioDescription": "Sarah Thompson is a 35-year-old office worker who has been sedentary for several years. She's gained weight gradually and now wants to lose approximately 30 pounds. She has access to a basic gym in her apartment complex but isn't familiar with most equipment. She can commit to 3-4 workout sessions per week, 30-45 minutes each. She has minor knee discomfort from an old injury.",
+      "name": "Sarah Thompson",
+      "dob": "08/17/1988",
+      "phone": "555-123-9876",
+      "email": "s.thompson@example.com",
+      "gender": "Female",
+      "insurance": "None",
+      "criteria": "The agent should assess Sarah's baseline fitness, transition to WORKOUT_PLANNING with beginner-appropriate exercises that accommodate her knee issue, include both cardio and strength components, and provide a progressive plan that builds intensity gradually over time."
+    },
+    {
+      "scenarioName": "Muscle Building with Limited Equipment",
+      "scenarioDescription": "Alex Rivera is a 27-year-old who works from home and wants to build muscle mass. He has dumbbells up to 50 pounds, a pull-up bar, and resistance bands, but no other equipment. He can work out 5 days a week and has intermediate fitness experience from playing sports in college. He struggles with consistency and wants a structured program that will keep him engaged.",
+      "name": "Alex Rivera",
+      "dob": "01/10/1996",
+      "phone": "555-654-3210",
+      "email": "arivera@example.com",
+      "gender": "Male",
+      "insurance": "None",
+      "criteria": "The agent should transition to WORKOUT_PLANNING, design a hypertrophy-focused program utilizing available equipment, create a progressive overload schedule, and include variety to maintain engagement. The plan should effectively target all major muscle groups despite equipment limitations."
+    },
+    {
+      "scenarioName": "Nutrition Support for Athletic Performance",
+      "scenarioDescription": "Jasmine Williams is a 32-year-old recreational marathon runner preparing for her next race in 3 months. She runs 25-30 miles weekly, cross-trains with yoga, and is looking to improve her energy levels and recovery through better nutrition. She currently follows no specific diet but tends to undereat on training days and feels fatigued during longer runs.",
+      "name": "Jasmine Williams",
+      "dob": "04/05/1991",
+      "phone": "555-876-5432",
+      "email": "jwilliams@example.com",
+      "gender": "Female",
+      "insurance": "None",
+      "criteria": "The agent should transition to NUTRITION_GUIDANCE, provide endurance training-specific nutritional advice, address timing of meals around workouts, suggest appropriate carbohydrate loading strategies for longer runs, and recommend recovery nutrition protocols to reduce fatigue."
+    }
+  ]
+} 

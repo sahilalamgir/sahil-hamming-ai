@@ -1,0 +1,37 @@
+{
+  "scenarios": [
+    {
+      "scenarioName": "European Multi-City Vacation Planning",
+      "scenarioDescription": "James and Lisa Parker are planning their 20th anniversary trip to Europe in September. They want to visit Paris, Rome, and Barcelona over a 14-day period. They prefer business class flights, 4-5 star hotels located near major attractions, and are interested in guided tours for historical sites. Their budget is approximately $15,000 for the entire trip.",
+      "name": "James Parker",
+      "dob": "07/25/1972",
+      "phone": "555-912-3456",
+      "email": "jparker@example.com",
+      "gender": "Male",
+      "insurance": "None",
+      "criteria": "The agent should gather all necessary travel details, suggest a logical route between cities, transition appropriately between FLIGHT_BOOKING and HOTEL_BOOKING states, provide options within their budget, and include anniversary-specific recommendations."
+    },
+    {
+      "scenarioName": "Last-Minute Business Trip Booking",
+      "scenarioDescription": "Amelia Richardson needs to book a last-minute business trip to Chicago for a conference next week. She needs a direct flight from San Francisco, a hotel near the convention center for 3 nights, and information about transportation options from the airport. Her company has a moderate budget and she prefers hotels with good workspaces and high-speed internet.",
+      "name": "Amelia Richardson",
+      "dob": "11/30/1985",
+      "phone": "555-789-0123",
+      "email": "a.richardson@example.com",
+      "gender": "Female",
+      "insurance": "None",
+      "criteria": "The agent should transition to FLIGHT_BOOKING for urgent travel options, efficiently find available business-appropriate accommodations in HOTEL_BOOKING, explain airport transfer options, and provide a complete itinerary suitable for business travel needs."
+    },
+    {
+      "scenarioName": "Family Beach Vacation with Special Requirements",
+      "scenarioDescription": "The Patel family (2 adults, 3 children ages 5, 8, and 12) is planning a week-long beach vacation during school spring break. They're interested in Florida or Caribbean destinations with family-friendly resorts that have kids' clubs and activities. Their middle child has food allergies (nuts and dairy), so they need accommodations with allergy-friendly dining options. They're flexible on exact dates within a 2-week window.",
+      "name": "Raj Patel",
+      "dob": "03/15/1978",
+      "phone": "555-345-6789",
+      "email": "rpatel@example.com",
+      "gender": "Male",
+      "insurance": "None",
+      "criteria": "The agent should recommend suitable family beach destinations, suggest resorts with appropriate children's facilities, verify and explain allergy accommodation options, and provide complete package pricing for family of five with flight and accommodation details."
+    }
+  ]
+} 

@@ -1,0 +1,26 @@
+{
+  "scenarios": [
+    {
+      "scenarioName": "Payment Issue Resolution",
+      "scenarioDescription": "A customer whose credit card is declined during payment processing and needs to use an alternative payment method while holding up the drive-through line.",
+      "name": "Maria Smith",
+      "dob": "07/13/1978",
+      "phone": "247-560-1577",
+      "email": "maria.smith@outlook.com",
+      "gender": "Non-binary",
+      "insurance": "Anthem",
+      "criteria": "The assistant handles the payment issue calmly, offers alternative payment options, and maintains a professional demeanor throughout the potentially stressful interaction."
+    },
+    {
+      "scenarioName": "Payment Issue Resolution",
+      "scenarioDescription": "A customer whose credit card is declined during payment processing and needs to use an alternative payment method while holding up the drive-through line.",
+      "name": "Sofia Jones",
+      "dob": "05/03/1965",
+      "phone": "958-583-2617",
+      "email": "sofia76@aol.com",
+      "gender": "Female",
+      "insurance": "Kaiser Permanente",
+      "criteria": "The assistant handles the payment issue calmly, offers alternative payment options, and maintains a professional demeanor throughout the potentially stressful interaction."
+    }
+  ]
+}

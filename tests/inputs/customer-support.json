@@ -1,0 +1,26 @@
+{
+  "agentConfig": {
+    "actions": ["lookup_order", "process_refund", "escalate_issue"],
+    "initialState": {
+      "name": "GREETING",
+      "prompt": "You are a helpful customer support agent for an e-commerce website. Your goal is to assist customers with their inquiries, including order status, returns, and general questions. If customers want to process a return, transition to RETURN_PROCESSING. For complex technical issues, transition to TECHNICAL_SUPPORT. Try to resolve issues quickly and completely. Be courteous and professional at all times.",
+      "modelName": "gpt-4o",
+      "transitions": ["RETURN_PROCESSING", "TECHNICAL_SUPPORT"],
+      "initialMessage": "Thank you for contacting our support team. I'm your virtual assistant. How can I help you today?"
+    },
+    "additionalStates": [
+      {
+        "name": "RETURN_PROCESSING",
+        "prompt": "You are processing a return request. Ask for the order number, reason for return, and confirm if the product is unopened/undamaged. Explain the return policy (30-day window, original condition). Guide the customer through the return process step by step.",
+        "modelName": "gpt-4o-mini",
+        "transitions": []
+      },
+      {
+        "name": "TECHNICAL_SUPPORT",
+        "prompt": "You are providing technical support for our products. Ask detailed questions about the issue, including when it started, device specifications, and any error messages. Provide troubleshooting steps specific to the problem. If unable to resolve the issue, offer to escalate to a human specialist.",
+        "modelName": "gpt-4o-mini",
+        "transitions": []
+      }
+    ]
+  }
+} 
